@@ -4,41 +4,52 @@
 
 This project analyses Cyclistic bike-share trip data to understand how casual riders and annual members use the bike-sharing service differently. The objective is to identify behavioural patterns and insights that could help convert casual riders into annual members.
 
-The analysis was conducted using PostgreSQL, with data cleaning, exploration and SQL-based analysis of approximately 5.93 million ride records.
+The analysis involves data cleaning, SQL-based analysis using PostgreSQL, and visualisation using Power BI.
 
 ## Business Objective
 
-Cyclistic aims to increase annual memberships by understanding the differences between casual riders and existing members and using those insights to develop strategies that encourage casual riders to become annual members.
+Cyclistic aims to increase annual memberships by understanding the differences between casual riders and existing members and using these insights to develop strategies that encourage casual riders to become annual members.
+
+## Dataset
+
+The analysis covers 12 months of Cyclistic bike-share trip data.
+
+- **Total records analysed:** 5,932,349
+- **Annual member rides:** 3,815,695 (64.32%)
+- **Casual rider rides:** 2,116,625 (35.68%)
 
 ## Tools Used
 
 - PostgreSQL
 - pgAdmin 4
+- Power BI
 - SQL
-
-## Dataset
-
-The analysis covers bike-share trip data from July 2025 to June 2026.
-
-- **Total records analysed:** 5,932,349
-- **Annual member rides:** 3,815,695 (64.32%)
-- **Casual rider rides:** 2,116,625 (35.68%)
 
 ## Analysis Focus
 
 - Comparing casual riders and annual members.
 - Analysing ride patterns and usage behaviour.
 - Exploring differences in riding habits between customer groups.
-- Identifying potential opportunities to improve membership conversion.
+- Identifying opportunities to improve annual membership conversion.
 
-## Repository Structure
+## Repository Contents
 
-- **SQL_Analysis:** SQL queries used for data cleaning, exploration and analysis.
+| Folder | Description |
+|---|---|
+| `SQL_Analysis` | SQL queries used for data analysis. |
+| `Power_BI` | Power BI dashboard screenshots and dashboard documentation. |
+| `Project_Report` | Detailed project report. |
+| `Presentation` | Project presentation summarising the analysis. |
+| `Data_Cleaning` | Data cleaning documentation and record counts. |
 
-## Project Files
+## Project Deliverables
 
-The SQL queries and analytical workflow are available in the `SQL_Analysis` folder.
+- SQL analysis using PostgreSQL.
+- Power BI dashboard.
+- Project report.
+- Project presentation.
+- Data cleaning documentation.
 
-## Key Objective
+## Business Goal
 
-Use data-driven insights to help Cyclistic understand its customers better and develop strategies to increase annual membership.
+Use data-driven insights to understand rider behaviour and develop strategies to convert casual riders into annual members.
